@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  return NextResponse.json({ message: process.env.DB_USER });
+  return NextResponse.json({ message: "You are not allowed here!" });
 }
