@@ -24,7 +24,8 @@ export async function GET(req) {
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
       port: process.env.DB_PORT
-    });
+    })
+    ;
 
     // const query = `
     //   SELECT wm.label FROM widget_multirotator wm 
